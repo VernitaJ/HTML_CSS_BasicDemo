@@ -1,0 +1,121 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+}
+
+h1 {
+  font-family: Helvetica, serif;
+  color: #29b6f6;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Helvetica, serif;
+  color: #29b6f6;
+  font-size: 30px;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: #29b6f6;
+}
+
+button {
+  font-family: Helvetica;
+  font-size: 25px;
+  font-style: bold;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  margin: 1%;
+  border-radius: 20px;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  margin-top: 70px;
+  margin-left: 130px;
+  z-index: 1;
+  color: red;
+  font-family: Helvetica;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}
+
+.navbar li {
+  list-style: none;
+  font-family: Helvetica;
+  margin-right: 20px;
+}
+
+.heading {
+  display: block;
+  position: absolute;
+  background-color: red;
+  bottom: 25px;
+  left: 25px;
+  font-family: Helvetica;
+  font-size: 100px;
+  color: white;
+  margin: 5%;
+}
+
+.textblock {
+  max-width: 1000px;
+  background: linear-gradient(35deg, white, #f9f9f9);
+  padding: 40px;
+  margin-left: 100px;
+}
+
+.headerimage {
+  background: url("https://www.scanbox.se/en/wp-content/uploads/sites/3/2019/05/ScanBox-Malmo%CC%88-Stad.jpg")
+    no-repeat left;
+  position: relative;
+  background-attachment: fixed;
+  height: 500px;
+  font-size: 100px;
+  color: white;
+  font-family: Helvetica;
+}
+
+.backimage1 {
+  background: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/d2581159edd9062c5ca0322008237e8f-malmo.jpg?sharp=10&vib=20&w=1200")
+    no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.backimage2 {
+  background: url("https://img.guidebook-sweden.com/malmoe-kommun/slottsparken.jpg")
+    no-repeat center;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.backimage3 {
+  background: url("http://cdn-01.rockfoto.nu/imagesbig/20160806_013605_429651.jpg")
+    center;
+  background-attachment: fixed;
+  height: 500px;
+}
